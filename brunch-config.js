@@ -21,6 +21,10 @@ exports.config = {
     }
   },
 
+  server: {
+    hostname: '0.0.0.0'
+  },
+
   overrides: {
     production: {
       plugins: {
