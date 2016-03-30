@@ -4040,6 +4040,11 @@
       "from": "react-event-listener@>=0.1.1 <0.2.0",
       "resolved": "https://registry.npmjs.org/react-event-listener/-/react-event-listener-0.1.1.tgz"
     },
+    "react-redux": {
+      "version": "4.4.1",
+      "from": "react-redux@latest",
+      "resolved": "https://registry.npmjs.org/react-redux/-/react-redux-4.4.1.tgz"
+    },
     "react-tap-event-plugin": {
       "version": "0.2.2",
       "from": "react-tap-event-plugin@latest",
