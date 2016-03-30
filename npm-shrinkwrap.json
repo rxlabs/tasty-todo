@@ -686,6 +686,11 @@
       "from": "bower-config@>=1.3.0 <2.0.0",
       "resolved": "https://registry.npmjs.org/bower-config/-/bower-config-1.3.0.tgz"
     },
+    "bowser": {
+      "version": "1.0.0",
+      "from": "bowser@>=1.0.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/bowser/-/bowser-1.0.0.tgz"
+    },
     "boxen": {
       "version": "0.3.1",
       "from": "boxen@>=0.3.1 <0.4.0",
@@ -2233,6 +2238,11 @@
       "from": "hoek@>=2.0.0 <3.0.0",
       "resolved": "https://registry.npmjs.org/hoek/-/hoek-2.16.3.tgz"
     },
+    "hoist-non-react-statics": {
+      "version": "1.0.5",
+      "from": "hoist-non-react-statics@>=1.0.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/hoist-non-react-statics/-/hoist-non-react-statics-1.0.5.tgz"
+    },
     "home-or-tmp": {
       "version": "1.0.0",
       "from": "home-or-tmp@>=1.0.0 <2.0.0",
@@ -2360,6 +2370,16 @@
       "version": "0.9.3",
       "from": "init-skeleton@>=0.9.0 <0.10.0",
       "resolved": "https://registry.npmjs.org/init-skeleton/-/init-skeleton-0.9.3.tgz"
+    },
+    "inline-style-prefix-all": {
+      "version": "1.0.4",
+      "from": "inline-style-prefix-all@>=1.0.1 <2.0.0",
+      "resolved": "https://registry.npmjs.org/inline-style-prefix-all/-/inline-style-prefix-all-1.0.4.tgz"
+    },
+    "inline-style-prefixer": {
+      "version": "1.0.3",
+      "from": "inline-style-prefixer@>=1.0.2 <2.0.0",
+      "resolved": "https://registry.npmjs.org/inline-style-prefixer/-/inline-style-prefixer-1.0.3.tgz"
     },
     "inquirer": {
       "version": "0.12.0",
@@ -2718,6 +2738,11 @@
       "from": "jstransform@>=10.0.1 <11.0.0",
       "resolved": "https://registry.npmjs.org/jstransform/-/jstransform-10.1.0.tgz"
     },
+    "keycode": {
+      "version": "2.1.1",
+      "from": "keycode@>=2.1.0 <3.0.0",
+      "resolved": "https://registry.npmjs.org/keycode/-/keycode-2.1.1.tgz"
+    },
     "kind-of": {
       "version": "3.0.2",
       "from": "kind-of@>=3.0.2 <4.0.0",
@@ -2923,6 +2948,11 @@
       "from": "lodash.clonedeep@>=3.0.1 <4.0.0",
       "resolved": "https://registry.npmjs.org/lodash.clonedeep/-/lodash.clonedeep-3.0.2.tgz"
     },
+    "lodash.debounce": {
+      "version": "4.0.3",
+      "from": "lodash.debounce@>=4.0.0 <5.0.0",
+      "resolved": "https://registry.npmjs.org/lodash.debounce/-/lodash.debounce-4.0.3.tgz"
+    },
     "lodash.deburr": {
       "version": "3.2.0",
       "from": "lodash.deburr@>=3.0.0 <4.0.0",
@@ -2932,6 +2962,11 @@
       "version": "3.2.0",
       "from": "lodash.escape@>=3.0.0 <4.0.0",
       "resolved": "https://registry.npmjs.org/lodash.escape/-/lodash.escape-3.2.0.tgz"
+    },
+    "lodash.flowright": {
+      "version": "3.2.1",
+      "from": "lodash.flowright@>=3.2.1 <4.0.0",
+      "resolved": "https://registry.npmjs.org/lodash.flowright/-/lodash.flowright-3.2.1.tgz"
     },
     "lodash.isarguments": {
       "version": "3.0.8",
@@ -3047,6 +3082,11 @@
       "from": "lodash.templatesettings@>=3.0.0 <4.0.0",
       "resolved": "https://registry.npmjs.org/lodash.templatesettings/-/lodash.templatesettings-3.1.1.tgz"
     },
+    "lodash.throttle": {
+      "version": "4.0.1",
+      "from": "lodash.throttle@>=4.0.0 <5.0.0",
+      "resolved": "https://registry.npmjs.org/lodash.throttle/-/lodash.throttle-4.0.1.tgz"
+    },
     "lodash.toplainobject": {
       "version": "3.0.0",
       "from": "lodash.toplainobject@>=3.0.0 <4.0.0",
@@ -3116,6 +3156,33 @@
       "version": "1.0.1",
       "from": "matchdep@>=1.0.0 <2.0.0",
       "resolved": "https://registry.npmjs.org/matchdep/-/matchdep-1.0.1.tgz"
+    },
+    "material-ui": {
+      "version": "0.15.0-alpha.2",
+      "from": "material-ui@latest",
+      "resolved": "https://registry.npmjs.org/material-ui/-/material-ui-0.15.0-alpha.2.tgz",
+      "dependencies": {
+        "lodash._baseclone": {
+          "version": "4.5.3",
+          "from": "lodash._baseclone@>=4.0.0 <5.0.0",
+          "resolved": "https://registry.npmjs.org/lodash._baseclone/-/lodash._baseclone-4.5.3.tgz"
+        },
+        "lodash.isplainobject": {
+          "version": "4.0.3",
+          "from": "lodash.isplainobject@>=4.0.0 <5.0.0",
+          "resolved": "https://registry.npmjs.org/lodash.isplainobject/-/lodash.isplainobject-4.0.3.tgz"
+        },
+        "lodash.keysin": {
+          "version": "4.1.3",
+          "from": "lodash.keysin@>=4.0.0 <5.0.0",
+          "resolved": "https://registry.npmjs.org/lodash.keysin/-/lodash.keysin-4.1.3.tgz"
+        },
+        "lodash.merge": {
+          "version": "4.3.2",
+          "from": "lodash.merge@>=4.1.0 <5.0.0",
+          "resolved": "https://registry.npmjs.org/lodash.merge/-/lodash.merge-4.3.2.tgz"
+        }
+      }
     },
     "media-typer": {
       "version": "0.3.0",
@@ -3938,15 +4005,52 @@
       "from": "react@>=0.14.7 <0.15.0",
       "resolved": "https://registry.npmjs.org/react/-/react-0.14.8.tgz"
     },
+    "react-addons-create-fragment": {
+      "version": "0.14.8",
+      "from": "react-addons-create-fragment@>=0.14.0 <0.15.0",
+      "resolved": "https://registry.npmjs.org/react-addons-create-fragment/-/react-addons-create-fragment-0.14.8.tgz"
+    },
+    "react-addons-pure-render-mixin": {
+      "version": "0.14.8",
+      "from": "react-addons-pure-render-mixin@>=0.14.0 <0.15.0",
+      "resolved": "https://registry.npmjs.org/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-0.14.8.tgz"
+    },
     "react-addons-test-utils": {
       "version": "0.14.8",
       "from": "react-addons-test-utils@>=0.14.7 <0.15.0",
       "resolved": "https://registry.npmjs.org/react-addons-test-utils/-/react-addons-test-utils-0.14.8.tgz"
     },
+    "react-addons-transition-group": {
+      "version": "0.14.8",
+      "from": "react-addons-transition-group@>=0.14.0 <0.15.0",
+      "resolved": "https://registry.npmjs.org/react-addons-transition-group/-/react-addons-transition-group-0.14.8.tgz"
+    },
+    "react-addons-update": {
+      "version": "0.14.8",
+      "from": "react-addons-update@>=0.14.0 <0.15.0",
+      "resolved": "https://registry.npmjs.org/react-addons-update/-/react-addons-update-0.14.8.tgz"
+    },
     "react-dom": {
       "version": "0.14.8",
       "from": "react-dom@>=0.14.7 <0.15.0",
       "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-0.14.8.tgz"
+    },
+    "react-event-listener": {
+      "version": "0.1.1",
+      "from": "react-event-listener@>=0.1.1 <0.2.0",
+      "resolved": "https://registry.npmjs.org/react-event-listener/-/react-event-listener-0.1.1.tgz"
+    },
+    "react-tap-event-plugin": {
+      "version": "0.2.2",
+      "from": "react-tap-event-plugin@latest",
+      "resolved": "https://registry.npmjs.org/react-tap-event-plugin/-/react-tap-event-plugin-0.2.2.tgz",
+      "dependencies": {
+        "fbjs": {
+          "version": "0.2.1",
+          "from": "fbjs@>=0.2.1 <0.3.0",
+          "resolved": "https://registry.npmjs.org/fbjs/-/fbjs-0.2.1.tgz"
+        }
+      }
     },
     "read-all-stream": {
       "version": "3.1.0",
@@ -3999,6 +4103,11 @@
       "version": "0.6.2",
       "from": "rechoir@>=0.6.0 <0.7.0",
       "resolved": "https://registry.npmjs.org/rechoir/-/rechoir-0.6.2.tgz"
+    },
+    "recompose": {
+      "version": "0.15.1",
+      "from": "recompose@>=0.15.0 <0.16.0",
+      "resolved": "https://registry.npmjs.org/recompose/-/recompose-0.15.1.tgz"
     },
     "redent": {
       "version": "1.0.0",
@@ -4372,6 +4481,11 @@
       "version": "2.1.2",
       "from": "signal-exit@>=2.1.2 <3.0.0",
       "resolved": "https://registry.npmjs.org/signal-exit/-/signal-exit-2.1.2.tgz"
+    },
+    "simple-assign": {
+      "version": "0.1.0",
+      "from": "simple-assign@>=0.1.0 <0.2.0",
+      "resolved": "https://registry.npmjs.org/simple-assign/-/simple-assign-0.1.0.tgz"
     },
     "since-app-start": {
       "version": "0.1.0",
@@ -5015,6 +5129,11 @@
       "version": "0.0.4",
       "from": "vm-browserify@>=0.0.4 <0.1.0",
       "resolved": "https://registry.npmjs.org/vm-browserify/-/vm-browserify-0.0.4.tgz"
+    },
+    "warning": {
+      "version": "2.1.0",
+      "from": "warning@>=2.1.0 <3.0.0",
+      "resolved": "https://registry.npmjs.org/warning/-/warning-2.1.0.tgz"
     },
     "whatwg-fetch": {
       "version": "0.9.0",
