@@ -20,7 +20,7 @@ class App extends React.Component {
     }
 
     return (
-      <Paper style={style} zDepth={1}>
+      <Paper style={style}>
         <AppBar
           title='Tasty Todos'
           showMenuIconButton={false}
