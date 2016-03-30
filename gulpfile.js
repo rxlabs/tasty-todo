@@ -30,6 +30,18 @@ gulp.task('sass-lint', () => {
     .pipe($.sassLint.failOnError())
 })
 
+gulp.task('test', () => {
+  return gulp.src('app/**/*.spec.js', {read: false})
+    .pipe($.mocha({
+      compilers: require('babel-core/register'),
+      reporter: 'nyan'
+    }))
+})
+
+gulp.task('autotest', () => {
+  return gulp.watch('app/**/*.js', ['test'])
+})
+
 gulp.task('watch', () => {
   gulp.src('public/**/*.html')
     .pipe($.watch('public/**/*.html'))
