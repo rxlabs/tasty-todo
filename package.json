@@ -38,6 +38,7 @@
     "parser": "babel-eslint"
   },
   "dependencies": {
+    "babel-polyfill": "^6.7.4",
     "material-ui": "^0.15.0-alpha.2",
     "normalize.css": "^4.0.0",
     "react": "^0.14.7",
