@@ -3,6 +3,7 @@ import AppBar from 'material-ui/lib/app-bar'
 import Paper from 'material-ui/lib/paper'
 
 import Theme from '../theme'
+import VisibleTodoList from '../containers/VisibleTodoList'
 
 class App extends React.Component {
 
@@ -25,6 +26,7 @@ class App extends React.Component {
           title='Tasty Todos'
           showMenuIconButton={false}
         />
+        <VisibleTodoList />
       </Paper>
     )
   }
