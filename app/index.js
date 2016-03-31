@@ -4,10 +4,10 @@ import { Provider } from 'react-redux'
 import { createStore } from 'redux'
 import injectTapEventPlugin from 'react-tap-event-plugin'
 
-import reducer from './reducers'
+import rootReducer from './reducers'
 import App from './components/App'
 
-const store = createStore(reducer)
+const store = createStore(rootReducer)
 
 export default () => {
   injectTapEventPlugin()
