@@ -1,4 +1,6 @@
-const todos = (state = [], action) => {
+const initialState = []
+
+const todos = (state = initialState, action) => {
   return state
 }
 
