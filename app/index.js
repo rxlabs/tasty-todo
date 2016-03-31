@@ -6,7 +6,7 @@ import { createStore } from 'redux'
 import injectTapEventPlugin from 'react-tap-event-plugin'
 
 import rootReducer from './reducers'
-import App from './components/App'
+import App from './containers/App'
 
 const store = createStore(rootReducer)
 
