@@ -2805,6 +2805,23 @@
       "from": "load-json-file@>=1.0.0 <2.0.0",
       "resolved": "https://registry.npmjs.org/load-json-file/-/load-json-file-1.1.0.tgz"
     },
+    "localforage": {
+      "version": "1.4.0",
+      "from": "localforage@latest",
+      "resolved": "https://registry.npmjs.org/localforage/-/localforage-1.4.0.tgz",
+      "dependencies": {
+        "asap": {
+          "version": "1.0.0",
+          "from": "asap@>=1.0.0 <1.1.0",
+          "resolved": "https://registry.npmjs.org/asap/-/asap-1.0.0.tgz"
+        },
+        "promise": {
+          "version": "5.0.0",
+          "from": "promise@>=5.0.0 <6.0.0",
+          "resolved": "https://registry.npmjs.org/promise/-/promise-5.0.0.tgz"
+        }
+      }
+    },
     "lodash": {
       "version": "4.6.1",
       "from": "lodash@>=4.2.1 <5.0.0",
@@ -2984,6 +3001,18 @@
       "version": "3.2.1",
       "from": "lodash.flowright@>=3.2.1 <4.0.0",
       "resolved": "https://registry.npmjs.org/lodash.flowright/-/lodash.flowright-3.2.1.tgz"
+    },
+    "lodash.foreach": {
+      "version": "3.0.3",
+      "from": "lodash.foreach@>=3.0.3 <4.0.0",
+      "resolved": "https://registry.npmjs.org/lodash.foreach/-/lodash.foreach-3.0.3.tgz",
+      "dependencies": {
+        "lodash._baseeach": {
+          "version": "3.0.4",
+          "from": "lodash._baseeach@>=3.0.0 <4.0.0",
+          "resolved": "https://registry.npmjs.org/lodash._baseeach/-/lodash._baseeach-3.0.4.tgz"
+        }
+      }
     },
     "lodash.isarguments": {
       "version": "3.0.8",
@@ -4164,6 +4193,11 @@
       "version": "3.3.1",
       "from": "redux@>=3.3.1 <4.0.0",
       "resolved": "https://registry.npmjs.org/redux/-/redux-3.3.1.tgz"
+    },
+    "redux-persist": {
+      "version": "2.0.1",
+      "from": "redux-persist@latest",
+      "resolved": "https://registry.npmjs.org/redux-persist/-/redux-persist-2.0.1.tgz"
     },
     "regenerate": {
       "version": "1.2.1",
