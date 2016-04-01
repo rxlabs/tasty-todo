@@ -7,14 +7,17 @@ import VisibleTodoList from '../containers/VisibleTodoList'
 import AddTodo from '../containers/AddTodo'
 
 class App extends React.Component {
+  static childContextTypes = {
+    muiTheme: React.PropTypes.object
+  }
 
-  getChildContext () {
+  getChildContext = () => {
     return {
       muiTheme: Theme
     }
   }
 
-  render () {
+  render = () => {
     const style = {
       maxWidth: 800,
       minWidth: 300,
@@ -32,10 +35,6 @@ class App extends React.Component {
       </Paper>
     )
   }
-}
-
-App.childContextTypes = {
-  muiTheme: React.PropTypes.object
 }
 
 export default App

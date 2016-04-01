@@ -7,13 +7,13 @@ import {
 
 const initialState = []
 
-function toggleTodo (todo) {
+const toggleTodo = (todo) => {
   return Object.assign({}, todo, {
     completed: !todo.completed
   })
 }
 
-function newTodo (todo, id) {
+const newTodo = (todo, id) => {
   return {
     id,
     text: todo.text,
