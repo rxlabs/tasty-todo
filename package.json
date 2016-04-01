@@ -42,6 +42,7 @@
     "localforage": "^1.4.0",
     "material-ui": "^0.15.0-alpha.2",
     "normalize.css": "^4.0.0",
+    "ramda": "^0.20.1",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
     "react-redux": "^4.4.1",
