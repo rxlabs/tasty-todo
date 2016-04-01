@@ -1,1 +1,4 @@
-export { toggleTodo } from './todo'
+export {
+  addTodo,
+  toggleTodo
+} from './todo'

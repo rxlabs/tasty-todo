@@ -4,6 +4,7 @@ import Paper from 'material-ui/lib/paper'
 
 import Theme from '../theme'
 import VisibleTodoList from '../containers/VisibleTodoList'
+import AddTodo from '../containers/AddTodo'
 
 class App extends React.Component {
 
@@ -27,6 +28,7 @@ class App extends React.Component {
           showMenuIconButton={false}
         />
         <VisibleTodoList />
+        <AddTodo />
       </Paper>
     )
   }
