@@ -39,6 +39,10 @@ exports.config = {
   },
 
   plugins: {
+    babel: {
+      presets: ['es2015', 'stage-1', 'react']
+    },
+
     digest: {
       prependHost: {
         production: 'https://rxlabs.github.io/tasty-todo'
