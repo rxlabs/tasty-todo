@@ -3564,9 +3564,9 @@
       "resolved": "https://registry.npmjs.org/normalize-url/-/normalize-url-1.4.1.tgz"
     },
     "normalize.css": {
-      "version": "4.0.0",
-      "from": "normalize.css@>=4.0.0 <5.0.0",
-      "resolved": "https://registry.npmjs.org/normalize.css/-/normalize.css-4.0.0.tgz"
+      "version": "3.0.3",
+      "from": "normalize.css@3.0.3",
+      "resolved": "https://registry.npmjs.org/normalize.css/-/normalize.css-3.0.3.tgz"
     },
     "npmconf": {
       "version": "2.1.2",
