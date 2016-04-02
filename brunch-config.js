@@ -45,7 +45,7 @@ exports.config = {
 
     digest: {
       prependHost: {
-        production: 'https://rxlabs.github.io/tasty-todo'
+        production: 'https://rxlabs.github.io/tasty-todos'
       },
       referenceFiles: /\.(css|html|js)$/
     },

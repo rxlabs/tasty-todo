@@ -1,14 +1,14 @@
 {
-  "name": "tasty-todo",
+  "name": "tasty-todos",
   "version": "0.0.0",
   "description": "Example todo app built with Redux and React.",
   "private": true,
   "keywords": [
     "brunch"
   ],
-  "homepage": "https://github.com/rxlabs/tasty-todo",
-  "bugs": "https://github.com/rxlabs/tasty-todo/issues",
-  "repository": "rxlabs/tasty-todo",
+  "homepage": "https://github.com/rxlabs/tasty-todos",
+  "bugs": "https://github.com/rxlabs/tasty-todos/issues",
+  "repository": "rxlabs/tasty-todos",
   "license": "MIT",
   "author": {
     "name": "Evan Sosenko",

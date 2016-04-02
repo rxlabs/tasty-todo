@@ -7,4 +7,4 @@ This change log follows the conventions of
 
 ## [Unreleased][Unreleased]
 
-[Unreleased]: https://github.com/rxlabs/tasty-todo/compare/v0.0.0...HEAD
+[Unreleased]: https://github.com/rxlabs/tasty-todos/compare/v0.0.0...HEAD

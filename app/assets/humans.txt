@@ -3,8 +3,8 @@ Author: Evan Sosenko
 Email: razorx@evansosenko.com
 
 /* SITE */
-URL: https://rxlabs.github.io/tasty-todo/
-Source: https://github.com/rxlabs/tasty-todo
+URL: https://rxlabs.github.io/tasty-todos/
+Source: https://github.com/rxlabs/tasty-todos
 
 /* LIBRARIES */
 https://10up.github.io/sanitize.css/

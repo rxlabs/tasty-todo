@@ -1,10 +1,10 @@
 # Tasty Todo App
 
-[![GitHub release](https://img.shields.io/github/release/rxlabs/tasty-todo.svg)](https://github.com/rxlabs/tasty-todo/releases)
-[![GitHub license](https://img.shields.io/github/license/rxlabs/tasty-todo.svg)](./LICENSE.txt)
-[![David](https://img.shields.io/david/rxlabs/tasty-todo.svg)](https://david-dm.org/rxlabs/tasty-todo)
-[![David](https://img.shields.io/david/dev/rxlabs/tasty-todo.svg)](https://david-dm.org/rxlabs/tasty-todo#info=devDependencies)
-[![Travis](https://img.shields.io/travis/rxlabs/tasty-todo.svg)](https://travis-ci.org/rxlabs/tasty-todo)
+[![GitHub release](https://img.shields.io/github/release/rxlabs/tasty-todos.svg)](https://github.com/rxlabs/tasty-todos/releases)
+[![GitHub license](https://img.shields.io/github/license/rxlabs/tasty-todos.svg)](./LICENSE.txt)
+[![David](https://img.shields.io/david/rxlabs/tasty-todos.svg)](https://david-dm.org/rxlabs/tasty-todos)
+[![David](https://img.shields.io/david/dev/rxlabs/tasty-todos.svg)](https://david-dm.org/rxlabs/tasty-todos#info=devDependencies)
+[![Travis](https://img.shields.io/travis/rxlabs/tasty-todos.svg)](https://travis-ci.org/rxlabs/tasty-todos)
 
 > Built from [makenew/tasty-brunch](https://github.com/makenew/tasty-brunch).
 
@@ -15,8 +15,8 @@ Example todo app built with Redux and React.
 ## Quickstart
 
 ```
-$ git clone https://github.com/rxlabs/tasty-todo.git
-$ cd tasty-todo
+$ git clone https://github.com/rxlabs/tasty-todos.git
+$ cd tasty-todos
 $ npm install
 $ npm start
 ```
@@ -25,14 +25,14 @@ $ npm start
 
 ### Source Code
 
-The [tasty-todo source] is hosted on GitHub.
+The [tasty-todos source] is hosted on GitHub.
 Clone the project with
 
 ```
-$ git clone https://github.com/rxlabs/tasty-todo.git
+$ git clone https://github.com/rxlabs/tasty-todos.git
 ```
 
-[tasty-todo source]: https://github.com/rxlabs/tasty-todo
+[tasty-todos source]: https://github.com/rxlabs/tasty-todos
 
 ### Requirements
 
@@ -183,7 +183,7 @@ Please submit and comment on bug reports and feature requests.
 
 To submit a patch:
 
-1. Fork it (https://github.com/rxlabs/tasty-todo/fork).
+1. Fork it (https://github.com/rxlabs/tasty-todos/fork).
 2. Create your feature branch (`git checkout -b my-new-feature`).
 3. Make changes.
 4. Commit your changes (`git commit -am 'Add some feature'`).

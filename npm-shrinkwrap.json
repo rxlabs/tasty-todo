@@ -1,5 +1,5 @@
 {
-  "name": "tasty-todo",
+  "name": "tasty-todos",
   "version": "0.0.0",
   "dependencies": {
     "abbrev": {
