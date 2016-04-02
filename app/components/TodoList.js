@@ -3,7 +3,7 @@ import List from 'material-ui/lib/lists/list'
 
 import Todo from './Todo'
 
-const TodoList = ({ todos, onTodoClick }) => (
+const TodoList = ({ todos, onTodoClick, onTodoDelete }) => (
   <List>
     {todos.map(
       (todo) => (
@@ -11,6 +11,7 @@ const TodoList = ({ todos, onTodoClick }) => (
           key={todo.id}
           {...todo}
           onClick={() => onTodoClick(todo.id)}
+          onDelete={() => onTodoDelete(todo.id)}
         />
       )
     )}
@@ -23,7 +24,8 @@ TodoList.propTypes = {
     completed: PropTypes.bool.isRequired,
     text: PropTypes.string.isRequired
   }).isRequired).isRequired,
-  onTodoClick: PropTypes.func.isRequired
+  onTodoClick: PropTypes.func.isRequired,
+  onTodoDelete: PropTypes.func.isRequired
 }
 
 export default TodoList
