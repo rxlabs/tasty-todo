@@ -21,13 +21,14 @@ class App extends React.Component {
 
   render = () => {
     const style = {
-      maxWidth: 800,
       minWidth: 300,
-      minHeight: 300
+      maxWidth: 600,
+      minHeight: '85vh',
+      margin: 'auto'
     }
 
     return (
-      <Paper style={style}>
+      <div>
         <AppBar
           title='Tasty Todos'
           showMenuIconButton={false}
@@ -37,9 +38,11 @@ class App extends React.Component {
             </a>
           }
         />
-        <VisibleTodoList />
-        <AddTodo />
-      </Paper>
+        <Paper style={style}>
+          <VisibleTodoList />
+          <AddTodo />
+        </Paper>
+      </div>
     )
   }
 }
