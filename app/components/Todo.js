@@ -9,6 +9,7 @@ const Todo = ({ onClick, onDelete, completed, text }) => (
     primaryText={text}
     leftCheckbox={<Checkbox checked={completed} />}
     rightIcon={<ActionDelete onClick={onDelete} />}
+    style={completed ? {textDecoration: 'line-through'} : {}}
   />
 )
 
