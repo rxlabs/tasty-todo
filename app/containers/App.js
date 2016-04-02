@@ -1,7 +1,9 @@
 import React from 'react'
 import AppBar from 'material-ui/lib/app-bar'
 import Paper from 'material-ui/lib/paper'
+import IconButton from 'material-ui/lib/icon-button'
 
+import { GITHUB_LINK } from '../constants'
 import Theme from '../theme'
 import VisibleTodoList from '../containers/VisibleTodoList'
 import AddTodo from '../containers/AddTodo'
@@ -29,6 +31,11 @@ class App extends React.Component {
         <AppBar
           title='Tasty Todos'
           showMenuIconButton={false}
+          iconElementRight={
+            <a href={GITHUB_LINK}>
+              <IconButton iconClassName='icon-github' />
+            </a>
+          }
         />
         <VisibleTodoList />
         <AddTodo />

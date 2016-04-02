@@ -5,3 +5,13 @@
   width: 100vw;
   height: 100vh;
 }
+
+.icon-github {
+  min-width: 24px;
+  min-height: 24px;
+  background-image: url('DIGEST(/images/mark-github.svg)');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  filter: invert(100%);
+}
