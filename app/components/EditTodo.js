@@ -8,6 +8,10 @@ class EditTodo extends React.Component {
     this.state = {value: props.text}
   }
 
+  componentDidMount = () => {
+    this.refs.input.focus()
+  }
+
   handleChange = (event) => {
     this.setState({value: event.target.value})
   }
@@ -20,6 +24,8 @@ class EditTodo extends React.Component {
     return (
       <ListItem>
         <TextField
+          name={`todo-edit-${this.props.id}`}
+          ref='input'
           value={this.state.value}
           onChange={this.handleChange}
           onBlur={this.handleSave}
@@ -33,6 +39,7 @@ class EditTodo extends React.Component {
 }
 
 EditTodo.propTypes = {
+  id: PropTypes.number.isRequired,
   onSave: PropTypes.func.isRequired
 }
 
