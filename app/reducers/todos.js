@@ -2,15 +2,17 @@ import R from 'ramda'
 
 import {
   ADD_TODO,
+  EDIT_TODO,
   REMOVE_TODO,
-  TOGGLE_TODO
+  TOGGLE_TODO,
+  UPDATE_TODO
 } from '../constants/ActionTypes'
 
 const initialState = []
 
-const toggleTodo = (todo) => {
+const editTodo = (todo) => {
   return Object.assign({}, todo, {
-    completed: !todo.completed
+    editing: true
   })
 }
 
@@ -18,8 +20,22 @@ const newTodo = (todo, id) => {
   return {
     id,
     text: todo.text,
-    completed: false
+    completed: false,
+    editing: false
   }
+}
+
+const toggleTodo = (todo) => {
+  return Object.assign({}, todo, {
+    completed: !todo.completed
+  })
+}
+
+const updateTodo = (todo, text) => {
+  return Object.assign({}, todo, {
+    text,
+    editing: false
+  })
 }
 
 const todos = (state = initialState, action) => {
@@ -38,6 +54,14 @@ const todos = (state = initialState, action) => {
         ...state,
         newTodo(action, id)
       ]
+    case EDIT_TODO:
+      return state.map((todo) => {
+        if (todo.id !== action.id) {
+          return todo
+        }
+
+        return editTodo(todo)
+      })
     case REMOVE_TODO:
       return state.filter((todo) => (todo.id !== action.id))
     case TOGGLE_TODO:
@@ -47,6 +71,14 @@ const todos = (state = initialState, action) => {
         }
 
         return toggleTodo(todo)
+      })
+    case UPDATE_TODO:
+      return state.map((todo) => {
+        if (todo.id !== action.id) {
+          return todo
+        }
+
+        return updateTodo(todo, action.text)
       })
     default:
       return state

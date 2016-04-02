@@ -1,5 +1,7 @@
 export {
   addTodo,
+  editTodo,
   removeTodo,
-  toggleTodo
+  toggleTodo,
+  updateTodo
 } from './todo'
