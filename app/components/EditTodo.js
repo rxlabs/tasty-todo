@@ -1,5 +1,4 @@
-import React from 'react'
-import { connect } from 'react-redux'
+import React, { PropTypes } from 'react'
 import ListItem from 'material-ui/lib/lists/list-item'
 import TextField from 'material-ui/lib/text-field'
 
@@ -33,4 +32,8 @@ class EditTodo extends React.Component {
   }
 }
 
-export default connect()(EditTodo)
+EditTodo.propTypes = {
+  onSave: PropTypes.func.isRequired
+}
+
+export default EditTodo
