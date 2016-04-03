@@ -13,3 +13,12 @@
   background-size: contain;
   filter: invert(100%);
 }
+
+.todos {
+  display: flex;
+  flex-direction: column;
+}
+
+.controls {
+  margin: 0 auto;
+}

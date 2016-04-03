@@ -7,6 +7,7 @@ import { GITHUB_LINK } from '../constants'
 import Theme from '../theme'
 import VisibleTodoList from '../containers/VisibleTodoList'
 import AddTodo from '../containers/AddTodo'
+import Controls from '../containers/Controls'
 
 class App extends React.Component {
   static childContextTypes = {
@@ -38,7 +39,8 @@ class App extends React.Component {
             </a>
           }
         />
-        <Paper style={style}>
+        <Paper style={style} className='todos'>
+          <Controls className='controls' />
           <VisibleTodoList />
           <AddTodo />
         </Paper>

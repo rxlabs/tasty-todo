@@ -1,3 +1,6 @@
+// filter
+export const SET_FILTER = 'SET_FILTER'
+
 // todos
 export const ADD_TODO = 'ADD_TODO'
 export const EDIT_TODO = 'EDIT_TODO'

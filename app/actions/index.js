@@ -1,3 +1,5 @@
+export { setFilter } from './filter'
+
 export {
   addTodo,
   editTodo,
