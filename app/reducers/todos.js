@@ -51,8 +51,8 @@ const todos = (state = initialState, action) => {
       }
 
       return [
-        ...state,
-        newTodo(action, id)
+        newTodo(action, id),
+        ...state
       ]
     case EDIT_TODO:
       return state.map((todo) => {

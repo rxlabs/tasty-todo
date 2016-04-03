@@ -41,8 +41,8 @@ class App extends React.Component {
         />
         <Paper style={style} className='todos'>
           <Controls className='controls' />
-          <VisibleTodoList />
           <AddTodo />
+          <VisibleTodoList />
         </Paper>
       </div>
     )
