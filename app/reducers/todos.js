@@ -47,7 +47,7 @@ const todos = (state = initialState, action) => {
 
       let id = 0
       if (!R.isEmpty(state)) {
-        id = R.last(state).id + 1
+        id = state[0].id + 1
       }
 
       return [
