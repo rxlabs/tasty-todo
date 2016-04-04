@@ -11,7 +11,7 @@ const Control = ({ text, active, onClick }) => (
 
 Control.propTypes = {
   text: PropTypes.string.isRequired,
-  action: PropTypes.bool.isRequired,
+  active: PropTypes.bool.isRequired,
   onClick: PropTypes.func.isRequired
 }
 
